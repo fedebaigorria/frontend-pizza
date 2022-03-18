@@ -1,0 +1,150 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    width: 1024px;
+}
+
+
+ul li 
+{
+    list-style:none;
+}
+
+header
+{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 10px 20px;
+}
+
+header section
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header section nav ul
+{
+    display: flex;
+    flex-direction: row;
+    padding-top : 30px;
+    gap :  13px; 
+}
+
+main
+{
+    height: 428px;
+    background-color: #E5E5E5;
+}
+
+main section
+{
+    padding: 35px 20px;
+    display: flex;
+    
+}
+
+main section div
+{
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section div p 
+{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color : red;
+}
+
+.promo-letra
+{
+    color: white;
+}
+
+.ranking
+{
+    width: 491px;
+    height: 350px;
+    position: relative;
+}
+
+main section div h3 
+{
+    font-size: 24px;
+    color : #FC200C;
+    align-self: center;
+    padding: 26px 160px;
+}
+
+main section div h4 
+{
+    font-size: 20px;
+    padding-left: 60px ;
+    padding-top: 32px ;
+}
+
+ol 
+{
+    font-size: 16px;
+    padding-left: 51px;
+    padding-top : 20px;
+    font-weight: bold;
+}
+
+ol li
+{
+    padding-bottom: 10px;
+}
+
+.ranking img
+{
+    position: absolute;
+    right: 74px;
+    bottom: 89px;
+}
+
+footer
+{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    position: relative;
+    height: 150px;
+}
+
+footer section
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section img
+{
+    padding: 35px 42px;
+}
+
+footer section nav ul
+{
+    padding-top: 19px;
+}
+
+footer section nav ul li
+{
+    padding-bottom: 12px;
+}
